@@ -1,0 +1,807 @@
+{
+  "success": true,
+  "data": {
+    "title": "Assignment event",
+    "slug": "assignment-event",
+    "post_type": "event",
+    "post_id": 41298,
+    "lang": "en",
+    "nr_of_blocks": 1,
+    "block_list": [
+      "o9/event-agenda"
+    ],
+    "blocks": [
+      {
+        "blockName": "o9/event-agenda",
+        "attrs": {
+          "intro": "KEYNOTES AND SESSIONS",
+          "heading": "AGENDA"
+        },
+        "innerBlocks": [
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 35,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 33195,
+                  "name": "Jay Koganti",
+                  "position": "Vice President of Supply Chain COE",
+                  "image": {
+                    "id": 32266,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti.jpeg",
+                    "alt": "Jay koganti",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 38697,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 37009,
+                  "name": "Harish Lade",
+                  "position": "Vice President of Supply Chain",
+                  "image": {
+                    "id": 37010,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade.webp",
+                    "alt": "Harish lade",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-300x264.webp 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-1024x900.webp 1024w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-768x675.webp 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade.webp 1200w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 35955,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Magneti-Marelli-logo-dark.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Magneti-Marelli-logo-dark.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 45,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 38855,
+                  "name": "Jay Koganti",
+                  "position": "Vice President of Supply Chain COE",
+                  "image": {
+                    "id": 38856,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti.jpeg",
+                    "alt": "Jay koganti",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jay-Koganti.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 37444,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/12/demand-sensing.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/12/demand-sensing.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures.</p>\n"
+                ]
+              },
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 30,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 35657,
+                  "name": "George Llado",
+                  "position": "Former SVP & CIO of Alexion Pharmaceuticals",
+                  "image": {
+                    "id": 35553,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado.jpeg",
+                    "alt": "George llado",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado.jpeg 250w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-140x140.jpeg 140w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 40426,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Arla-darkmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Arla-darkmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33672,
+                  "name": "Pierre Mille",
+                  "position": "Supply Chain Lead",
+                  "image": {
+                    "id": 33673,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille.jpeg",
+                    "alt": "Pierre mille",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 38697,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 30,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 35657,
+                  "name": "George Llado",
+                  "position": "Former SVP & CIO of Alexion Pharmaceuticals",
+                  "image": {
+                    "id": 35553,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado.jpeg",
+                    "alt": "George llado",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado.jpeg 250w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/03/George-Llado-140x140.jpeg 140w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 40426,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Arla-darkmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Arla-darkmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33672,
+                  "name": "Pierre Mille",
+                  "position": "Supply Chain Lead",
+                  "image": {
+                    "id": 33673,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille.jpeg",
+                    "alt": "Pierre mille",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Pierre-Mille.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 38697,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/06/Toyota-black-1.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 23,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 37009,
+                  "name": "Harish Lade",
+                  "position": "Vice President of Supply Chain",
+                  "image": {
+                    "id": 37010,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade.webp",
+                    "alt": "Harish lade",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-300x264.webp 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-1024x900.webp 1024w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade-768x675.webp 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Harish-Lade.webp 1200w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 35955,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Magneti-Marelli-logo-dark.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Magneti-Marelli-logo-dark.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 36996,
+                  "name": "Hae-Goo Song",
+                  "position": "Executive Vice President",
+                  "image": {
+                    "id": 33556,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS.jpeg",
+                    "alt": "Hae goo song, executive vice president, samsung sds",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/02/Hae-Goo-Song-Executive-Vice-President-Samsung-SDS.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 27029,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Google-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Google-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33179,
+                  "name": "Chris Fink",
+                  "position": "Global Supply Chain Manager",
+                  "image": {
+                    "id": 32280,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink.jpeg",
+                    "alt": "Chris fink",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Chris-Fink.jpeg 360w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 27077,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Nestle-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Nestle-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33176,
+                  "name": "Bill Grah",
+                  "position": "Director of S&OP",
+                  "image": {
+                    "id": 32282,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah.jpeg",
+                    "alt": "Bill grah",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Bill-Grah.jpeg 800w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 26997,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Citizen-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/07/Logo-Citizen-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 35,
+              "category": "KEYNOTE",
+              "day": "Day 1",
+              "speakerList": [
+                {
+                  "id": 35677,
+                  "name": "Gustavo Lopez Ghory",
+                  "position": "Former CSCO of Kimberly-Clark",
+                  "image": {
+                    "id": 35628,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory.jpeg",
+                    "alt": "Gustavo lopez ghory",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2022/01/Gustavo-Lopez-Ghory.jpeg 321w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 34246,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Philiphs-logo-black.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/02/Philiphs-logo-black.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33199,
+                  "name": "Megan Zielinski",
+                  "position": "Director of Global Planning",
+                  "image": {
+                    "id": 32262,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski.jpeg",
+                    "alt": "Megan zielinski",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski.jpeg 218w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-140x140.jpeg 140w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 40429,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Phosfluorescently deploy fully tested channels for cross-unit process improvements.",
+              "startTime": "2023-02-28T12:31:44",
+              "duration": 32,
+              "coverImage": {
+                "id": 41272,
+                "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/11/Place-the-image.png",
+                "alt": "Place the image"
+              },
+              "category": "KEYNOTE",
+              "day": "Day 2",
+              "speakerList": [
+                {
+                  "id": 33199,
+                  "name": "Megan Zielinski",
+                  "position": "Director of Global Planning",
+                  "image": {
+                    "id": 32262,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski.jpeg",
+                    "alt": "Megan zielinski",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski.jpeg 218w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Megan-Zielinski-140x140.jpeg 140w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 40429,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 35773,
+                  "name": "Steve Schuckenbrock",
+                  "position": "Former CEO of CROSSMARK",
+                  "image": {
+                    "id": 35589,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock.jpeg",
+                    "alt": "Steve schuckenbrock",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2022/03/Steve-Schuckenbrock.jpeg 501w"
+                  },
+                  "company_logo": []
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          },
+          {
+            "blockName": "o9/event-agenda-item",
+            "attrs": {
+              "title": "Authoritatively syndicate 24/365 core competencies vis-a-vis superior technologies.",
+              "startTime": "2023-03-28T12:31:44",
+              "duration": 40,
+              "coverImage": {
+                "id": 41272,
+                "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/11/Place-the-image.png",
+                "alt": "Place the image"
+              },
+              "category": "KEYNOTE",
+              "day": "Day 2",
+              "speakerList": [
+                {
+                  "id": 37015,
+                  "name": "Dr. Athina Kanioura",
+                  "position": "Chief Strategy and Transformation Officer",
+                  "image": {
+                    "id": 37016,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura.jpeg",
+                    "alt": "Athina kanioura",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/05/Athina-Kanioura.jpeg 500w"
+                  },
+                  "company_logo": [
+                    {
+                      "mediaId": 40429,
+                      "mediaUrl": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg",
+                      "sizes": {
+                        "full": {
+                          "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/08/Fonterra-lightmode.svg"
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "id": 33164,
+                  "name": "Jayabindu Singh",
+                  "position": "Vice President of Engineering and Quality Assurance",
+                  "image": {
+                    "id": 32276,
+                    "url": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh.jpeg",
+                    "alt": "Jayabindu singh",
+                    "srcset": "https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-300x300.jpeg 300w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-150x150.jpeg 150w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-768x768.jpeg 768w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-100x100.jpeg 100w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-140x140.jpeg 140w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-500x500.jpeg 500w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh-350x350.jpeg 350w, https://staging17.o9solutions.com/wp-content/uploads/2023/01/Jayabindu-Singh.jpeg 800w"
+                  },
+                  "company_logo": []
+                }
+              ]
+            },
+            "innerBlocks": [
+              {
+                "blockName": "core/paragraph",
+                "attrs": [],
+                "innerBlocks": [],
+                "innerHTML": "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n",
+                "innerContent": [
+                  "\n<p>Continually develop cost effective schemas and granular interfaces. Interactively supply turnkey systems rather than e-business growth strategies. Continually visualize e-business supply chains after synergistic testing procedures. <br>Completely redefine long-term high-impact deliverables without fully researched schemas. Progressively monetize an expanded array of e-services vis-a-vis bricks-and-clicks deliverables.</p>\n"
+                ]
+              }
+            ],
+            "innerHTML": "\n\n",
+            "innerContent": [
+              "\n",
+              null,
+              "\n"
+            ]
+          }
+        ],
+        "innerHTML": "",
+        "innerContent": ""
+      }
+    ],
+    "featured_image": [],
+    "author": [],
+    "post_date": "December 6, 2023",
+    "taxonomies": [],
+    "forms": [],
+    "translation": {
+      "en": {
+        "id": 41298,
+        "url": "https://staging17.o9solutions.com/events/assignment-event/",
+        "locale": "en"
+      },
+      "ja": {
+        "id": 0,
+        "url": "https://staging17.o9solutions.com/peoples/jayabindu-singh/",
+        "locale": "ja_JP"
+      },
+      "cn": {
+        "id": 0,
+        "url": "https://staging17.o9solutions.com/peoples/jayabindu-singh/",
+        "locale": "zh_CN"
+      },
+      "tw": {
+        "id": 0,
+        "url": "https://staging17.o9solutions.com/peoples/jayabindu-singh/",
+        "locale": "zh_TW"
+      }
+    },
+    "seo": {
+      "canonical": "",
+      "description": "",
+      "title": "Assignment event - o9 Solutions",
+      "site_name": "o9 Solutions",
+      "wordpress_site_name": "o9 Solutions",
+      "site_url": "https://staging17.o9solutions.com/",
+      "company_name": "o9 Solutions",
+      "company_logo_id": 13456,
+      "schema_page_type": [
+        "WebPage"
+      ],
+      "main_schema_id": "https://staging17.o9solutions.com/events/assignment-event/",
+      "meta_description": "",
+      "robots": {
+        "index": "noindex",
+        "follow": "follow",
+        "max-snippet": "max-snippet:-1",
+        "max-image-preview": "max-image-preview:large",
+        "max-video-preview": "max-video-preview:-1"
+      },
+      "googlebot": null,
+      "rel_next": "",
+      "rel_prev": "",
+      "open_graph_enabled": true,
+      "open_graph_publisher": "https://www.facebook.com/o9solutions/",
+      "open_graph_type": "article",
+      "open_graph_title": "Assignment event - o9 Solutions",
+      "open_graph_description": "",
+      "open_graph_images": {
+        "https://staging17.o9solutions.com/wp-content/uploads/2020/07/o9-footer-bw-1.jpg": {
+          "width": 850,
+          "height": 750,
+          "url": "https://staging17.o9solutions.com/wp-content/uploads/2020/07/o9-footer-bw-1.jpg",
+          "path": "/home/customer/www/staging17.o9solutions.com/public_html/wp-content/uploads/2020/07/o9-footer-bw-1.jpg",
+          "size": "full",
+          "id": 9968,
+          "alt": "",
+          "pixels": 637500,
+          "type": "image/jpeg"
+        }
+      },
+      "open_graph_url": "https://staging17.o9solutions.com/events/assignment-event/",
+      "open_graph_site_name": "o9 Solutions",
+      "open_graph_article_publisher": "https://www.facebook.com/o9solutions/",
+      "open_graph_article_author": "",
+      "open_graph_article_published_time": "",
+      "open_graph_article_modified_time": "2023-12-06T13:30:10+00:00",
+      "open_graph_locale": "en_US",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://staging17.o9solutions.com/events/assignment-event/",
+            "url": "https://staging17.o9solutions.com/events/assignment-event/",
+            "name": "Assignment event - o9 Solutions",
+            "isPartOf": {
+              "@id": "https://staging17.o9solutions.com/#website"
+            },
+            "datePublished": "2023-12-06T13:30:09+00:00",
+            "dateModified": "2023-12-06T13:30:10+00:00",
+            "inLanguage": "en-US",
+            "potentialAction": [
+              {
+                "@type": "ReadAction",
+                "target": [
+                  "https://staging17.o9solutions.com/events/assignment-event/"
+                ]
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://staging17.o9solutions.com/#website",
+            "url": "https://staging17.o9solutions.com/",
+            "name": "o9 Solutions",
+            "description": "Decisions matter. Do better.",
+            "publisher": {
+              "@id": "https://staging17.o9solutions.com/#organization"
+            },
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "https://staging17.o9solutions.com/?s={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+              }
+            ],
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Organization",
+            "@id": "https://staging17.o9solutions.com/#organization",
+            "name": "o9 Solutions",
+            "url": "https://staging17.o9solutions.com/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://staging17.o9solutions.com/#/schema/logo/image/",
+              "url": "https://staging17.o9solutions.com/wp-content/uploads/2020/09/o9-Logo_White-on-black-MEDIUM.jpg",
+              "contentUrl": "https://staging17.o9solutions.com/wp-content/uploads/2020/09/o9-Logo_White-on-black-MEDIUM.jpg",
+              "width": 601,
+              "height": 600,
+              "caption": "o9 Solutions"
+            },
+            "image": {
+              "@id": "https://staging17.o9solutions.com/#/schema/logo/image/"
+            },
+            "sameAs": [
+              "https://www.facebook.com/o9solutions/",
+              "https://twitter.com/o9solutions",
+              "https://www.instagram.com/o9solutions/",
+              "https://www.linkedin.com/company/o9solutions/",
+              "https://www.youtube.com/channel/UCWFwqZMJN-vNfakdPi6Ueuw"
+            ]
+          }
+        ]
+      },
+      "twitter_card": "summary_large_image",
+      "twitter_title": "",
+      "twitter_description": "",
+      "twitter_image": "",
+      "twitter_creator": "",
+      "twitter_site": "@o9solutions",
+      "placid_social_images": [
+        {
+          "built_from": "type",
+          "template": "wodwihgop",
+          "url": "https://staging17.o9solutions.com/wp-content/uploads/placid-social-images/0ed0a4ad1f96372f3345218d57652a4a.png",
+          "width": 1200,
+          "height": 630,
+          "status": "done",
+          "path": null,
+          "filename": "0ed0a4ad1f96372f3345218d57652a4a.png"
+        }
+      ]
+    },
+    "meta": {
+      "color_theme": "",
+      "color_theme_header": "",
+      "color_theme_footer": "",
+      "is_aimtenx": false
+    }
+  }
+}
