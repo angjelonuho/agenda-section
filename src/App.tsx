@@ -1,6 +1,6 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { ReactQueryDevtools } from "react-query/devtools";
-import AgendaNavMenu from './components/Agenda/AgendaNavMenu';
+import AgendaSection from './pages/AgendaSection';
 import './App.css';
 
 
@@ -9,7 +9,7 @@ const queryClient = new QueryClient();
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
-      <AgendaNavMenu />
+      <AgendaSection/>
       
       <ReactQueryDevtools/>
     </QueryClientProvider>
