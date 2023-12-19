@@ -3,10 +3,7 @@ import useFetch from "../hooks/useFetchAgendaItems";
 import AgendaHeaderMenu from "../components/Agenda/AgendaHeaderMenu";
 
 const AgendaSection = () => {
-  const apiUrl = "https://staging17.o9solutions.com/wp-json/o9/v1/page";
-  const { data, isLoading, error } = useFetch(apiUrl, "POST", {
-    post_id: 41298,
-  });
+  const { data, isLoading, error } = useFetch();
 
   if (isLoading) {
     return (

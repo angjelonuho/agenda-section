@@ -3,14 +3,14 @@ import dummyData from '../dummy.json';
 import {getAgenda} from '../api/api'
 
 
-// const useFetchAgendaItems = (url: string, method: string = 'POST', body?: object): UseQueryResult<Api.EventAgenda.IFetchResults> => {
-//   return useQuery(['apiData', url, method, body], () => getAgenda());
+// const useFetchAgendaItems = (): UseQueryResult<Api.EventAgenda.IFetchResults> => {
+//   return useQuery(['apiData'], () => getAgenda());
 // };
 
 //Coros error so we fake the request
 
-const useFetchAgendaItems = (url: string, method: 'POST', body?: object): UseQueryResult<Api.EventAgenda.IFetchResults> => {
-  return useQuery(['apiData', url, method, body], () => {
+const useFetchAgendaItems = (): UseQueryResult<Api.EventAgenda.IFetchResults> => {
+  return useQuery(['apiData'], () => {
     return new Promise((resolve) => {
       setTimeout(() => {
         resolve(dummyData);
