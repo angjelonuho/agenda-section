@@ -1,10 +1,9 @@
 import AppSpinner from "../components/App/AppSpinner";
-import useFetch from "../hooks/useFetch";
+import useFetch from "../hooks/useFetchAgendaItems";
 import AgendaHeaderMenu from "../components/Agenda/AgendaHeaderMenu";
 
 const AgendaSection = () => {
-  const apiUrl = process.env.REACT_APP_API_URL ?? "";
-  console.log(apiUrl);
+  const apiUrl = "https://staging17.o9solutions.com/wp-json/o9/v1/page";
   const { data, isLoading, error } = useFetch(apiUrl, "POST", {
     post_id: 41298,
   });
