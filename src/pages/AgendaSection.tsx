@@ -22,10 +22,11 @@ const AgendaSection = () => {
     );
   }
 
-  const header = data?.data?.blocks[0]?.attrs?.intro || "No header available";
+  const header = data?.data?.blocks[0]?.attrs?.heading || "";
+  const subheader = data?.data?.blocks[0]?.attrs?.intro || "";
 
   return (
-    <AgendaHeaderMenu header={header} subheader={"hello"} timezone={"12"} />
+    <AgendaHeaderMenu header={header} subheader={subheader} />
   );
 };
 

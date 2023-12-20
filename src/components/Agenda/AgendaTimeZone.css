@@ -1,0 +1,11 @@
+.agenda-time-zone-container {
+  height: 46px;
+  width: 219px;
+}
+
+.agenda-time-zone {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 22.95px;
+  margin: 0;
+}

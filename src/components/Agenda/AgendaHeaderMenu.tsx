@@ -1,14 +1,23 @@
-import React from "react";
-import { AgendaHeaderMenuProps } from "../../types/components/Agenda/agendHeaderMenuProps.type";
+import { AgendaHeaderMenuProps } from "../../types/components/Agenda/agendaHeaderMenuProps";
+import AgendaDayToggle from "./AgendaDaysToggle";
+import AgendaTimeZone from "./AgendaTimeZone";
+import "./AgendaHeaderMenu.css";
 
-const AgendaNavMenu = ({ header, subheader, timezone }: AgendaHeaderMenuProps) => {
+const AgendaHeaderMenu = ({ header, subheader }: AgendaHeaderMenuProps) => {
   return (
-    <nav role="navigation">
-      <h5>{subheader}</h5>
-      <h1>{header}</h1>
-      <p>{timezone}</p>
-    </nav>
+    <header role="navigation" className="agenda-header-menu">
+      <div className="agenda-header-menu-container">
+        <h5 className="agenda-header-menu-subheader">{subheader.toUpperCase()}</h5>
+        <h1 className="agenda-header-menu-header">{header.toUpperCase()}</h1>
+      </div>
+      <div>
+        <AgendaDayToggle />
+      </div>
+      <div className="navLastChild">
+        <AgendaTimeZone />
+      </div>
+    </header>
   );
 };
 
-export default AgendaNavMenu;
+export default AgendaHeaderMenu;

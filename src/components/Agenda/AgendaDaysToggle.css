@@ -1,0 +1,23 @@
+.days-toggle-container {
+  width: 184px;
+  height: 56px;
+  background: #DADADA;
+  border-radius: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days-toggle-button {
+  border-radius: 46px;
+  padding: 12px 24px;
+  border: none;
+  background: #DADADA;
+  transition: background 0.3s ease-in-out;
+  font-weight: 400;
+}
+
+.days-toggle-selectedButton {
+  background: #000000;
+  color: #FFFFFF;
+}
