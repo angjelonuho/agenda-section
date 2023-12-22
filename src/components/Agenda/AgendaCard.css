@@ -1,0 +1,16 @@
+.agenda-card-container{
+  display: grid;
+}
+
+.agenda-card-wrapper{
+  height: 464px;
+  background: #CACACA;
+}
+
+.large-card-container{
+  grid-column: span 2;
+}
+
+.small-card-container{
+  grid-column: span 1;
+}

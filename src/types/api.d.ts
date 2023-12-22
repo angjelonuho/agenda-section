@@ -1,12 +1,13 @@
 namespace Api {
   namespace EventAgenda {
     interface IFetchResults {
-      data: Data | null;
+      success: boolean;
+      data: IData | null;
       isLoading: boolean;
       error: Error | null;
     }
 
-    interface Data {
+    interface IData {
       title: string;
       slug: string;
       post_type: string;
@@ -14,84 +15,84 @@ namespace Api {
       lang: string;
       nr_of_blocks: number;
       block_list: string[];
-      blocks: Block[];
+      blocks: IBlock[];
       featured_image: any[];
       author: any[];
       post_date: string;
       taxonomies: any[];
       forms: any[];
-      translation: Translation;
-      seo: Seo;
-      meta: Meta;
+      translation: ITranslation;
+      seo: ISeo;
+      meta: IMeta;
     }
 
-    interface Block {
-      blockName: string;
-      attrs: Attrs;
-      innerBlocks: InnerBlock[];
+    interface IBlock {
+      BlockName: string;
+      attrs: IAttrs;
+      innerBlocks: IInnerBlock[];
       innerHTML: string;
       innerContent: string;
     }
 
-    interface Attrs {
+    interface IAttrs {
       intro: string;
       heading: string;
     }
 
-    interface InnerBlock {
-      blockName: string;
-      attrs: Attrs2;
-      innerBlocks: InnerBlock2[];
+    interface IInnerBlock {
+      BlockName: string;
+      attrs: IAttrs2;
+      innerBlocks: IInnerBlock2[];
       innerHTML: string;
       innerContent: string | undefined[];
     }
 
-    interface Attrs2 {
+    interface IAttrs2 {
       title: string;
       startTime: string;
       duration: number;
       category: string;
       day: string;
-      speakerList: SpeakerList[];
-      coverImage?: CoverImage;
+      speakerList: ISpeakerList[];
+      coverImage?: ICoverImage;
     }
 
-    interface SpeakerList {
+    interface ISpeakerList {
       id: number;
       name: string;
       position: string;
-      image: Image;
-      company_logo: CompanyLogo[];
+      image: IImage;
+      company_logo: ICompanyLogo[];
     }
 
-    interface Image {
+    interface IImage {
       id: number;
       url: string;
       alt: string;
       srcset: string;
     }
 
-    interface CompanyLogo {
+    interface ICompanyLogo {
       mediaId: number;
       mediaUrl: string;
-      sizes: Sizes;
+      sizes: ISizes;
     }
 
-    interface Sizes {
-      full: Full;
+    interface ISizes {
+      full: IFull;
     }
 
-    interface Full {
+    interface IFull {
       url: string;
     }
 
-    interface CoverImage {
+    interface ICoverImage {
       id: number;
       url: string;
       alt: string;
     }
 
-    interface InnerBlock2 {
+    interface IInnerBlock2 {
       blockName: string;
       attrs: any[];
       innerBlocks: any[];
@@ -99,38 +100,20 @@ namespace Api {
       innerContent: string[];
     }
 
-    interface Translation {
-      en: En;
-      ja: Ja;
-      cn: Cn;
-      tw: Tw;
+    interface ITranslation {
+      en: ILanguage;
+      ja: ILanguage;
+      cn: ILanguage;
+      tw: ILanguage;
     }
 
-    interface En {
+    interface ILanguage {
       id: number;
       url: string;
       locale: string;
     }
 
-    interface Ja {
-      id: number;
-      url: string;
-      locale: string;
-    }
-
-    interface Cn {
-      id: number;
-      url: string;
-      locale: string;
-    }
-
-    interface Tw {
-      id: number;
-      url: string;
-      locale: string;
-    }
-
-    interface Seo {
+    interface ISeo {
       canonical: string;
       description: string;
       title: string;
@@ -142,7 +125,7 @@ namespace Api {
       schema_page_type: string[];
       main_schema_id: string;
       meta_description: string;
-      robots: Robots;
+      robots: IRobots;
       googlebot: any;
       rel_next: string;
       rel_prev: string;
@@ -151,7 +134,7 @@ namespace Api {
       open_graph_type: string;
       open_graph_title: string;
       open_graph_description: string;
-      open_graph_images: OpenGraphImages;
+      open_graph_images: IOpenGraphImages;
       open_graph_url: string;
       open_graph_site_name: string;
       open_graph_article_publisher: string;
@@ -159,17 +142,17 @@ namespace Api {
       open_graph_article_published_time: string;
       open_graph_article_modified_time: string;
       open_graph_locale: string;
-      schema: Schema;
+      schema: ISchema;
       twitter_card: string;
       twitter_title: string;
       twitter_description: string;
       twitter_image: string;
       twitter_creator: string;
       twitter_site: string;
-      placid_social_images: PlacidSocialImage[];
+      placid_social_images: IPlacidSocialImage[];
     }
 
-    interface Robots {
+    interface IRobots {
       index: string;
       follow: string;
       "max-snippet": string;
@@ -177,11 +160,11 @@ namespace Api {
       "max-video-preview": string;
     }
 
-    interface OpenGraphImages {
-      string: HttpsStaging17O9solutionsComWpContentUploads202007O9FooterBw1Jpg;
+    interface IOpenGraphImages {
+      string: IHttpsStaging17O9solutionsComWpContentUploads202007O9FooterBw1Jpg;
     }
 
-    interface HttpsStaging17O9solutionsComWpContentUploads202007O9FooterBw1Jpg {
+    interface IHttpsStaging17O9solutionsComWpContentUploads202007O9FooterBw1Jpg {
       width: number;
       height: number;
       url: string;
@@ -193,43 +176,43 @@ namespace Api {
       type: string;
     }
 
-    interface Schema {
+    interface ISchema {
       "@context": string;
-      "@graph": Graph[];
+      "@graph": IGraph[];
     }
 
-    interface Graph {
+    interface IGraph {
       "@type": string;
       "@id": string;
       url: string;
       name: string;
-      isPartOf?: IsPartOf;
+      isPartOf?: IIsPartOf;
       datePublished?: string;
       dateModified?: string;
       inLanguage?: string;
-      potentialAction?: PotentialAction[];
+      potentialAction?: IPotentialAction[];
       description?: string;
-      publisher?: Publisher;
-      logo?: Logo;
-      image?: Image2;
+      publisher?: IPublisher;
+      logo?: ILogo;
+      image?: IImage2;
       sameAs?: string[];
     }
 
-    interface IsPartOf {
+    interface IIsPartOf {
       "@id": string;
     }
 
-    interface PotentialAction {
+    interface IPotentialAction {
       "@type": string;
       target: any;
       "query-input"?: string;
     }
 
-    interface Publisher {
+    interface IPublisher {
       "@id": string;
     }
 
-    interface Logo {
+    interface ILogo {
       "@type": string;
       inLanguage: string;
       "@id": string;
@@ -240,11 +223,11 @@ namespace Api {
       caption: string;
     }
 
-    interface Image2 {
+    interface IImage2 {
       "@id": string;
     }
 
-    interface PlacidSocialImage {
+    interface IPlacidSocialImage {
       built_from: string;
       template: string;
       url: string;
@@ -255,7 +238,7 @@ namespace Api {
       filename: string;
     }
 
-    interface Meta {
+    interface IMeta {
       color_theme: string;
       color_theme_header: string;
       color_theme_footer: string;
