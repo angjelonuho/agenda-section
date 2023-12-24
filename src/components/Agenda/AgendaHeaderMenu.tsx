@@ -1,7 +1,11 @@
-import { AgendaHeaderMenuProps } from "../../types/components/Agenda/agendaHeaderMenuProps";
 import AgendaDayToggle from "./AgendaDaysToggle";
 import AgendaTimeZone from "./AgendaTimeZone";
 import "./AgendaHeaderMenu.css";
+
+interface AgendaHeaderMenuProps {
+  header: string
+  subheader: string
+}
 
 const AgendaHeaderMenu: React.FC<AgendaHeaderMenuProps> = ({ header, subheader }) => {
   return (

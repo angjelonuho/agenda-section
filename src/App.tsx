@@ -1,17 +1,16 @@
 import { QueryClient, QueryClientProvider } from 'react-query';
-import { ReactQueryDevtools } from "react-query/devtools";
 import AgendaSection from './pages/AgendaSection';
 import './App.css';
 
 
 const queryClient = new QueryClient();
-// just remove the dev tools to work
+//TODO: remove the dev tools 
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <AgendaSection/>
       
-      <ReactQueryDevtools/>
+      {/* <ReactQueryDevtools/> */}
     </QueryClientProvider>
   );
 }
