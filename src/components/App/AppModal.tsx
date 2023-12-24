@@ -1,5 +1,5 @@
-import React, { ReactNode } from "react";
-import "./AppModal.css"
+import React, { ReactNode, useEffect, useState } from "react";
+import "./AppModal.css";
 
 interface AppModalProps {
   onClose: () => void;
@@ -7,10 +7,27 @@ interface AppModalProps {
   showCloseButton?: boolean;
 }
 
-const AppModal: React.FC<AppModalProps> = ({ onClose, children, showCloseButton = true }) => {
+const AppModal: React.FC<AppModalProps> = ({
+  onClose,
+  children,
+  showCloseButton = true,
+}) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const openTimer = setTimeout(() => {
+      setIsOpen(true);
+    }, 50);
+
+    return () => clearTimeout(openTimer);
+  }, []);
+
   return (
-    <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+    <div className={`modal-overlay ${isOpen ? "open" : ""}`} onClick={onClose}>
+      <div
+        className={`modal-content ${isOpen ? "open" : ""}`}
+        onClick={(e) => e.stopPropagation()}
+      >
         {showCloseButton && (
           <span className="close-button" onClick={onClose}>
             &times;

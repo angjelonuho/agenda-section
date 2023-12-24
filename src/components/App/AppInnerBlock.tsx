@@ -1,3 +1,5 @@
+import React from "react";
+
 interface AppInnerBlockProps {
   appInnerBlocks: Api.EventAgenda.IInnerBlock2[];
 }

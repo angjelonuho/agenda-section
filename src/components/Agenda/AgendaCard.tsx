@@ -26,10 +26,6 @@ const AgendaCard: React.FC<AgendaCardProps> = ({ card }) => {
     setModalOpen(false);
   };
 
-  console.log(
-    JSON.stringify(card.attrs.speakerList[0].company_logo[0].mediaUrl)
-  );
-
   const containerClass =
     card.attrs.speakerList.length > 2
       ? "large-card-container"
@@ -53,7 +49,7 @@ const AgendaCard: React.FC<AgendaCardProps> = ({ card }) => {
             icon="/icons/arrow-forward.svg"
             variant="btn-underline"
           />
-    
+
           <AgendaImageCarousel data={card.attrs.speakerList} />
         </div>
       </div>
@@ -69,7 +65,7 @@ const AgendaCard: React.FC<AgendaCardProps> = ({ card }) => {
                     {card.attrs.duration} MIN
                   </div>
                   <div className="agenda-card-time-modal-timezone">
-                  <AgendaTimeZone inline />
+                    <AgendaTimeZone inline />
                   </div>
                 </div>
 

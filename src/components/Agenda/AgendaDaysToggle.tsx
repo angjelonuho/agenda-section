@@ -1,26 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AgendaDaysToggle.css";
 
-const AgendaDayToggle: React.FC = () => {
-  const [selectedDay, setSelectedDay] = useState("dayOne");
+interface AgendaDayToggleProps {
+  selectedDay: string;
+  onDayToggle: (day: string) => void;
+}
 
-  const handleToggle = (day: string) => {
-    setSelectedDay(day);
-  };
-
+const AgendaDaysToggle: React.FC<AgendaDayToggleProps> = ({ selectedDay, onDayToggle }) => {
   return (
     <div className="days-toggle-container">
       <button
-        className={`days-toggle-button ${selectedDay === "dayOne" ? "days-toggle-selectedButton" : ""}`}
-        onClick={() => handleToggle("dayOne")}
-        disabled={selectedDay === "dayOne"}
+        className={`days-toggle-button ${selectedDay === "Day 1" ? "days-toggle-selectedButton" : ""}`}
+        onClick={() => onDayToggle("Day 1")}
+        disabled={selectedDay === "Day 1"}
       >
         DAY 1
       </button>
       <button
-        className={`days-toggle-button ${selectedDay === "dayTwo" ? "days-toggle-selectedButton" : ""}`}
-        onClick={() => handleToggle("dayTwo")}
-        disabled={selectedDay === "dayTwo"}
+        className={`days-toggle-button ${selectedDay === "Day 2" ? "days-toggle-selectedButton" : ""}`}
+        onClick={() => onDayToggle("Day 2")}
+        disabled={selectedDay === "Day 2"}
       >
         DAY 2
       </button>
@@ -28,4 +27,4 @@ const AgendaDayToggle: React.FC = () => {
   );
 };
 
-export default AgendaDayToggle;
+export default AgendaDaysToggle;

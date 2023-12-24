@@ -1,4 +1,4 @@
-.btn-underline{
+.btn-underline {
   display: inline-block;
   padding: 8px 16px 8px 0;
   text-decoration: none;
@@ -10,19 +10,21 @@
   background-color: transparent;
   text-transform: uppercase;
   color: var(--app-color-light-dark);
-  border-top:none;
+  border-top: none;
   border-right: none;
   border-bottom: 0.8px solid var(--app-color-light-dark);
   border-left: none;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
   text-align: left;
   -ms-flex-item-align: baseline;
-      align-self: baseline;
+  align-self: baseline;
+  cursor: pointer;
 }
 
-.app-btn-icon{
+.app-btn-icon {
   position: absolute;
   right: 0;
   width: 13px;
   height: 20px;
+  cursor: pointer;
 }

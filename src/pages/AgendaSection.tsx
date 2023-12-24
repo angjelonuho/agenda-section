@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import AppSpinner from "../components/App/AppSpinner";
 import useFetch from "../hooks/useFetchAgendaItems";
 import AgendaHeaderMenu from "../components/Agenda/AgendaHeaderMenu";
@@ -6,12 +7,14 @@ import AgendaCard from "../components/Agenda/AgendaCard";
 import "./AgendaSection.css";
 import debounce from "../utils/debounceUtil";
 import AppButton from "../components/App/AppButton";
+import AgendaDaysToggle from "../components/Agenda/AgendaDaysToggle";
 
 const AgendaSection: React.FC = () => {
   const { data, isLoading, error } = useFetch();
   const [visibleItems, setVisibleItems] = useState<number>(
     calculateVisibleItems(data)
   );
+  const [selectedDay, setSelectedDay] = useState<string>("Day 1");
 
   useEffect(() => {
     const handleResize = debounce(() => {
@@ -37,6 +40,9 @@ const AgendaSection: React.FC = () => {
       : data?.data?.blocks[0]?.innerBlocks?.length || 20;
   }
 
+  const handleDayToggle = (day: string) => {
+    setSelectedDay(day);
+  };
   if (isLoading) {
     return (
       <div>
@@ -58,14 +64,34 @@ const AgendaSection: React.FC = () => {
   const subheader = data?.data?.blocks[0]?.attrs?.intro || "";
   const innerBlocks: Api.EventAgenda.IInnerBlock[] =
     data?.data?.blocks[0]?.innerBlocks || [];
+  const seoData = data?.data?.seo;
 
   return (
     <main className="agenda-section-container">
-      <AgendaHeaderMenu header={header} subheader={subheader} />
+      <HelmetProvider>
+        <Helmet>
+          <title>{data?.data?.title}</title>
+          <meta name="description" content={data?.data?.slug} />
+          {seoData?.canonical && (
+            <link rel="canonical" href={seoData?.canonical} />
+          )}
+        </Helmet>
+      </HelmetProvider>
+      <AgendaHeaderMenu
+        header={header}
+        subheader={subheader}
+      />
+      <AgendaDaysToggle
+        selectedDay={selectedDay}
+        onDayToggle={handleDayToggle}
+      />
       <section className="agenda-card-grid">
-        {innerBlocks.slice(0, visibleItems).map((item, index) => (
-          <AgendaCard card={item} key={index} />
-        ))}
+        {innerBlocks
+          .filter((item) => item.attrs.day === selectedDay)
+          .slice(0, visibleItems)
+          .map((item, index) => (
+            <AgendaCard card={item} key={index} />
+          ))}
       </section>
       {visibleItems < innerBlocks.length && (
         <div className="agenda-see-all-btn">

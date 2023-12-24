@@ -55,6 +55,10 @@
 
 }
 
+.agenda-header-days-toogle{
+  height: auto;
+}
+
 @media screen and (min-width: 600px) and (max-width: 1279px) {
   .agenda-header-menu  {
     width: 100%;

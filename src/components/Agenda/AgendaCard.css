@@ -1,6 +1,7 @@
 .agenda-card-container {
   display: -ms-grid;
   display: grid;
+  cursor: pointer;
 }
 
 .agenda-card-wrapper {

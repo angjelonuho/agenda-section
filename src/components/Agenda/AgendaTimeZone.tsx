@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./AgendaTimeZone.css";
+import React from "react";
 
 interface AgendaTimeZoneProps {
   inline?: boolean;

@@ -1,3 +1,4 @@
+import React from 'react';
 import './AppSpinner.css';
 
 const AppSpinner: React.FC  = () => {
