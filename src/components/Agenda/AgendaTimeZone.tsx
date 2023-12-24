@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import "./AgendaTimeZone.css";
 
-const AgendaTimeZone = () => {
+interface AgendaTimeZoneProps {
+  inline?: boolean;
+}
+
+const AgendaTimeZone: React.FC<AgendaTimeZoneProps> = ({ inline = false }) => {
   const [continent, setContinent] = useState("");
   const [city, setCity] = useState("");
 
@@ -13,9 +17,15 @@ const AgendaTimeZone = () => {
   }, []);
 
   return (
-    <div className="agenda-time-zone-container">
-      <p className="agenda-time-zone">{`Timezone: ${continent}/`}</p>
-      <p className="agenda-time-zone">{city}</p>
+    <div className={`agenda-time-zone-container ${inline ? 'inline' : ''}`}>
+      {inline ? (
+        <p className="agenda-time-zone">{`Timezone: ${continent}/${city}`}</p>
+      ) : (
+        <>
+          <p className="agenda-time-zone">{`Timezone: ${continent}/`}</p>
+          <p className="agenda-time-zone">{city}</p>
+        </>
+      )}
     </div>
   );
 };

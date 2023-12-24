@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import "./AgendaDaysToggle.css";
 
-const AgendaDayToggle = () => {
+const AgendaDayToggle: React.FC = () => {
   const [selectedDay, setSelectedDay] = useState("dayOne");
 
   const handleToggle = (day: string) => {

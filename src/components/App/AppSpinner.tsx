@@ -1,6 +1,6 @@
 import './AppSpinner.css';
 
-const AppSpinner = () => {
+const AppSpinner: React.FC  = () => {
   return <div className="spinner"></div>;
 };
 

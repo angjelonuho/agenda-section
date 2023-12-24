@@ -4,15 +4,18 @@ import "./AppModal.css"
 interface AppModalProps {
   onClose: () => void;
   children: ReactNode;
+  showCloseButton?: boolean;
 }
 
-const AppModal = ({ onClose, children }: AppModalProps) => {
+const AppModal: React.FC<AppModalProps> = ({ onClose, children, showCloseButton = true }) => {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-        <span className="close-button" onClick={onClose}>
-          &times;
-        </span>
+        {showCloseButton && (
+          <span className="close-button" onClick={onClose}>
+            &times;
+          </span>
+        )}
         {children}
       </div>
     </div>

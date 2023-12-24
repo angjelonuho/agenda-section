@@ -1,0 +1,27 @@
+.btn-underline{
+  display: inline-block;
+  padding: 8px 16px 8px 0;
+  text-decoration: none;
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  padding-right: 28px;
+  background-color: transparent;
+  text-transform: uppercase;
+  color: #010101;
+  border-top:none;
+  border-right: none;
+  border-bottom: 0.8px solid #010101;
+  border-left: none;
+  letter-spacing: .2px;
+  text-align: left;
+  align-self: baseline;
+}
+
+.app-btn-icon{
+  position: absolute;
+  right: 0;
+  width: 13px;
+  height: 20px;
+}

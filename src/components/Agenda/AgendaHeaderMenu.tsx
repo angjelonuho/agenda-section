@@ -3,7 +3,7 @@ import AgendaDayToggle from "./AgendaDaysToggle";
 import AgendaTimeZone from "./AgendaTimeZone";
 import "./AgendaHeaderMenu.css";
 
-const AgendaHeaderMenu = ({ header, subheader }: AgendaHeaderMenuProps) => {
+const AgendaHeaderMenu: React.FC<AgendaHeaderMenuProps> = ({ header, subheader }) => {
   return (
     <header role="navigation" className="agenda-header-menu">
       <div className="agenda-header-menu-container">

@@ -4,7 +4,7 @@ import AgendaHeaderMenu from "../components/Agenda/AgendaHeaderMenu";
 import AgendaCard from "../components/Agenda/AgendaCard";
 import "./AgendaSection.css";
 
-const AgendaSection = () => {
+const AgendaSection: React.FC = () => {
   const { data, isLoading, error } = useFetch();
 
   if (isLoading) {
@@ -29,14 +29,14 @@ const AgendaSection = () => {
   const innerBlocks: Api.EventAgenda.IInnerBlock[] = data?.data?.blocks[0]?.innerBlocks || []; 
 
   return (
-    <div className="agenda-section-container">
+    <main className="agenda-section-container">
       <AgendaHeaderMenu header={header} subheader={subheader} />
-      <main className="agenda-card-grid">
+      <section className="agenda-card-grid">
         {innerBlocks.map((item, index) => (
           <AgendaCard card={item} key={index} />
         ))}
-      </main>
-    </div>
+      </section>
+    </main>
   );
 };
 

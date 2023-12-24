@@ -1,16 +1,148 @@
-.agenda-card-container{
+.agenda-card-container {
   display: grid;
 }
 
-.agenda-card-wrapper{
+.agenda-card-wrapper {
   height: 464px;
-  background: #CACACA;
+  background: #cacaca;
+  padding: 24px 24px 20px 24px;
 }
 
-.large-card-container{
+.agenda-card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.large-card-container {
   grid-column: span 2;
 }
 
-.small-card-container{
+.small-card-container {
   grid-column: span 1;
+}
+
+.agenda-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.agenda-card-time {
+  display: flex;
+  width: 76px;
+  height: 29px;
+  border-radius: 27.72px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color: var(--app-color-white);
+  background-color: var(--app-color-black);
+  align-items: center;
+  font-size: 0.75rem;
+  justify-content: center;
+  gap: 2.2px;
+}
+
+.agenda-card-keynote {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 15.4px;
+  letter-spacing: -0.8%;
+  font-weight: 400;
+  color: var(--app-color-black);
+}
+
+.agenda-card-content-text {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 110%;
+  max-width: 532px;
+  letter-spacing: -0.14px;
+}
+.agenda-card-learn-more-button {
+  display: inline-block;
+  padding: 8px 16px 8px 0;
+  text-decoration: none;
+  position: relative;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  width: 118px;
+
+  text-transform: uppercase;
+  color: #010101;
+  border-bottom: 0.8px solid #010101;
+  letter-spacing: 0.2px;
+}
+
+.agenda-card-learn-more-arrow {
+  position: absolute;
+  right: 0;
+  width: 13px;
+  height: 20px;
+}
+
+.agenda-card-time-modal {
+  display: flex;
+  width: 135px;
+  height: 29px;
+  border-radius: 27.72px;
+  font-weight: 400;
+  line-height: 14.4px;
+  color: var(--app-color-white);
+  background-color: var(--app-color-black);
+  align-items: center;
+  font-size: 0.75rem;
+  justify-content: center;
+  gap: 2.2px;
+}
+.agenda-card-time-timezone{
+  display: flex;
+  flex-direction: column;
+}
+.agenda-card-time-modal-timezone {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 16px;
+}
+
+.agenda-card-body-modal{
+  display: flex;
+  max-width: 552px;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 599px) {
+  .agenda-card-body-modal{
+    display: flex;
+    max-width: 90vw;
+    flex-direction: column;
+  }
+}
+
+.agenda-card-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.agenda-card-footer-modal-text{
+  font-size: 0.875rem;
+  line-height: 15.4px;
+  letter-spacing: -0.8%;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--app-color-black);
+}
+
+.agend-card-footer-modal{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.agenda-carousel-item{
+  position: relative;
 }
