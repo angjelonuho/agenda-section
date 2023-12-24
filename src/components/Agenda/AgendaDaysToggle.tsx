@@ -1,5 +1,3 @@
-// AgendaDayToggle.tsx
-
 import React, { useState } from "react";
 import "./AgendaDaysToggle.css";
 

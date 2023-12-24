@@ -69,7 +69,12 @@ const AgendaSection: React.FC = () => {
       </section>
       {visibleItems < innerBlocks.length && (
         <div className="agenda-see-all-btn">
-        <AppButton onClick={handleLoadAllDebounced} text="SEE ALL" variant="btn-underline" icon="/icons/dropdown-arrow.svg" />
+          <AppButton
+            onClick={handleLoadAllDebounced}
+            text="SEE ALL"
+            variant="btn-underline"
+            icon="/icons/dropdown-arrow.svg"
+          />
         </div>
       )}
     </main>

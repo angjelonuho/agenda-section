@@ -1,8 +1,11 @@
 :root {
   --app-color-background: #e5e5e5;
   --app-color-white: #FFFFFF;
+  --app-color-light-gray: #DADADA;
   --app-color-dark-shadow: #23232366;
   --app-color-black: #000000;
+  --app-color-light-dark: #010101;
+  --app-color-shadow-white: #cacaca;
 
 }
 

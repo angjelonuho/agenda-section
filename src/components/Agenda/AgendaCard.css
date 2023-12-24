@@ -1,35 +1,54 @@
 .agenda-card-container {
+  display: -ms-grid;
   display: grid;
 }
 
 .agenda-card-wrapper {
   height: 464px;
-  background: #cacaca;
+  background: var(--app-color-shadow-white);
   padding: 24px 24px 20px 24px;
 }
 
 .agenda-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 40px;
 }
 
 .large-card-container {
+  -ms-grid-column-span: 2;
   grid-column: span 2;
 }
 
 .small-card-container {
+  -ms-grid-column-span: 1;
   grid-column: span 1;
 }
 
 .agenda-card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .agenda-card-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 76px;
   height: 29px;
@@ -38,9 +57,13 @@
   line-height: 14.4px;
   color: var(--app-color-white);
   background-color: var(--app-color-black);
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 0.75rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 2.2px;
 }
 
@@ -71,8 +94,8 @@
   width: 118px;
 
   text-transform: uppercase;
-  color: #010101;
-  border-bottom: 0.8px solid #010101;
+  color: var(--app-color-light-dark);
+  border-bottom: 0.8px solid var(--app-color-light-dark);
   letter-spacing: 0.2px;
 }
 
@@ -84,6 +107,8 @@
 }
 
 .agenda-card-time-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 135px;
   height: 29px;
@@ -92,14 +117,23 @@
   line-height: 14.4px;
   color: var(--app-color-white);
   background-color: var(--app-color-black);
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 0.75rem;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 2.2px;
 }
 .agenda-card-time-timezone{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .agenda-card-time-modal-timezone {
   font-size: 12px;
@@ -111,22 +145,37 @@
 }
 
 .agenda-card-body-modal{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 552px;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (max-width: 599px) {
   .agenda-card-body-modal{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     max-width: 90vw;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
 .agenda-card-modal{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 56px;
 }
 .agenda-card-footer-modal-text{
@@ -139,8 +188,13 @@
 }
 
 .agend-card-footer-modal{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   gap: 24px;
 }
 .agenda-carousel-item{
